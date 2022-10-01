@@ -1,0 +1,52 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#current-time-title {
+    color: #fff;
+    font-size: 30px;
+    margin-top: -150px;
+}
+
+#current-time-value {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+#input-title {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+#input-box {
+    width: 300px;
+    height: 40px;
+    font-size: 33px;
+    margin-top: 20px;
+}
+
+#input-button {
+    width: 134px;
+    height: 34px;
+    margin-top: 20px;
+}
+
+#wasm-result {
+    color: rgb(255, 160, 160);
+    font-size: 18px;
+    margin-top: 20px;
+}
